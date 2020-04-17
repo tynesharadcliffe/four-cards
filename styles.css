@@ -53,8 +53,8 @@ img {
 .sub {
   text-align: center;
   width: 35%;
-  margin-right: 0;
-  margin-left: 465px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card1 {
@@ -105,7 +105,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1200px) {
 
 
   .holder .col {
