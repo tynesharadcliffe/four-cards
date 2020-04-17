@@ -1,4 +1,3 @@
-
 body {
   font-size: 15px;
   font-family: Poppins, sans-serif;
@@ -8,7 +7,7 @@ body {
 h1 {
   font-weight: 200;
   color: hsl(234, 12%, 34%);
-  margin:0;
+  margin: 0;
 }
 
 h2 {
@@ -23,12 +22,14 @@ p {
 img {
   float: right;
 }
+
 .power {
   font-weight: 600;
   color: hsl(234, 12%, 34%);
-  margin:0;
+  margin: 0;
 }
-.holder{
+
+.holder {
   width: 1200px;
   position: relative;
   height: 500px;
@@ -37,7 +38,7 @@ img {
   margin-left: 25px;
 }
 
-.holder .col{
+.holder .col {
   width: 32%;
   float: left;
   margin: 5px;
@@ -48,12 +49,13 @@ img {
   position: relative;
   padding-top: 20px;
 }
-.sub{
-  white-space: pre;
-  margin: 0;
+
+.sub {
+  text-align: center;
+  width: 35%;
+  margin-right: 0;
+  margin-left: 465px;
 }
-
-
 
 .card1 {
   height: 210px;
@@ -64,7 +66,7 @@ img {
   margin-top: 100px;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .card4 {
@@ -76,7 +78,7 @@ img {
   margin-top: 100px;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .card2 {
@@ -88,7 +90,7 @@ img {
   margin-top: 20px;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .card3 {
@@ -100,25 +102,49 @@ img {
   margin-top: 20px;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
-
-@media screen and (max-width:640px){
-  .holder{
+@media screen and (max-width:640px) {
+  .holder {
     position: relative;
     height: 500px;
     padding: 60px;
     padding-top: 10px;
     margin-left: 0;
+    padding-left: 50px;
   }
-  .holder .col{
+
+  .holder .col {
     width: 32%;
     float: none;
   }
+  .card1 {
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 80%;
+  }
+  .card2 {
+    width: 80%;
+  }
+  .card3 {
+    width: 80%;
+  }
+
   .card4 {
     margin-top: 20px;
-}
-
+    width: 80%;
   }
+
+  .sub {
+    width: 65%;
+    margin: 0;
+    margin-left: 80px;
+    line-height: 1.6;
+  }
+
+  .info {
+    padding-top: 60px;
+  }
+}
 }
