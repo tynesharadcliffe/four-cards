@@ -30,12 +30,12 @@ img {
 }
 
 .holder {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   position: relative;
   height: 500px;
-  padding: 100px;
   padding-top: 10px;
-  margin-left: 25px;
+  margin: 25px auto;
 }
 
 .holder .col {
