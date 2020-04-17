@@ -105,7 +105,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:640px) {
 
 
   .holder .col {
