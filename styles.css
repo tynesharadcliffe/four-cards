@@ -1,0 +1,124 @@
+
+body {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin:0;
+}
+
+h2 {
+  font-weight: 400;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+img {
+  float: right;
+}
+.power {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin:0;
+}
+.holder{
+  width: 1200px;
+  position: relative;
+  height: 500px;
+  padding: 100px;
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+.holder .col{
+  width: 32%;
+  float: left;
+  margin: 5px;
+}
+
+.info {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+.sub{
+  white-space: pre;
+  margin: 0;
+}
+
+
+
+.card1 {
+  height: 210px;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px 30px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+}
+
+.card4 {
+  height: 210px;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px 30px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+}
+
+.card2 {
+  height: 210px;
+  border: 1px solid white;
+  margin: 5px;
+  padding: 10px 30px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+}
+
+.card3 {
+  height: 210px;
+  border: 1px solid white;
+  margin: 5px;
+  padding: 10px 30px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.02), 0 6px 20px 0 rgba(0,0,0,0.09);
+}
+
+
+@media screen and (max-width:640px){
+  .holder{
+    position: relative;
+    height: 500px;
+    padding: 60px;
+    padding-top: 10px;
+    margin-left: 0;
+  }
+  .holder .col{
+    width: 32%;
+    float: none;
+  }
+  .card4 {
+    margin-top: 20px;
+}
+
+  }
+}
