@@ -29,7 +29,6 @@ a {
 .attribution {
   text-align: center;
 }
-
 .power {
   font-weight: 600;
   color: hsl(234, 12%, 34%);
@@ -60,8 +59,8 @@ a {
 .sub {
   text-align: center;
   width: 35%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0;
+  margin-left: 465px;
 }
 
 .card1 {
@@ -112,7 +111,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:640px) {
 
 
   .holder .col {
@@ -142,6 +141,9 @@ a {
 
   .info {
     padding-top: 60px;
+  }
+  .attribution {
+    margin-top: 580px;
   }
 }
 }
